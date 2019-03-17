@@ -1,0 +1,23 @@
+from django.db import models
+
+class Campany(models.Model):
+    id = models.AutoField(primary_key=True)
+    company_fich = models.CharField(max_length=200)
+    company_name = models.CharField(max_length=200)
+    type_camp = models.CharField(max_length=200)
+    state = models.CharField(max_length=200)
+    country = models.CharField(max_length=200)
+    postal = models.CharField(max_length=200)
+    city = models.CharField(max_length=200)
+    address = models.CharField(max_length=200)
+    products = models.CharField(max_length=20)
+    turnover = models.CharField(max_length=20)
+    certificate = models.CharField(max_length=20)
+    certifications = models.CharField(max_length=20)
+    brands = models.CharField(max_length=20)
+    telephone_1 = models.CharField(max_length=20)
+    telephone_2 = models.CharField(max_length=20)
+    fax = models.CharField(max_length=20)
+    bus_area = models.CharField(max_length=20)
+    url = models.CharField(max_length=20)
+    activity = models.CharField(max_length=20)
