@@ -4,7 +4,7 @@ from django.core import serializers
 
 from .models import Campany
 import csv
-from pprint import pprint as pp
+
 
 def index(request):
     row_number = 0
